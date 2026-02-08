@@ -1,4 +1,9 @@
 {
   "name": "VideoPlayer",
-  "displayName": "VideoPlayer"
+  "displayName": "VideoPlayer",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-3781453093578120~2034997041",
+    "ios_app_id": "ca-app-pub-3781453093578120~2034997041"
+  }
 }
+//ca-app-pub-3781453093578120~2034997041

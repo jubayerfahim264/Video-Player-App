@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Native splash background shown instantly when the app launches.
+  Dark gradient avoids any white flash before React Native loads.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="@color/splash_background_start"
+                android:endColor="@color/splash_background_end"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

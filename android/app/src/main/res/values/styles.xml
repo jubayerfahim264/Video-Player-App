@@ -6,4 +6,15 @@
         <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
     </style>
 
+    <!--
+      Splash theme: shown as soon as the activity starts (before React Native loads).
+      Uses splash_background so there is no white flash. Status bar is dark to match.
+    -->
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_status_bar</item>
+        <item name="android:navigationBarColor">@color/splash_background_start</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
 </resources>
